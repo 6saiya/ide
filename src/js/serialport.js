@@ -37,3 +37,4 @@ $('.btn-send').click(() => {
 $('.btn-reset').click(() => {
     $('.input-send-data').val('');
 })
+
