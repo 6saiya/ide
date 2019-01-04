@@ -20,11 +20,12 @@
     self.module = undefined;
 
     amdRequire(['vs/editor/editor.main'], function() {
-        var editor = monaco.editor.create(document.getElementById('container'), {
+        window.editor = monaco.editor.create(document.getElementById('container'), {
             value: [
-                'x() {',
-                '\tprint("Hello world!");',
-                '}'
+                // 'x() {',
+                // '\tprint("Hello world!")',
+                // '}'
+                'print("Hello world!")'
             ].join('\n'),
             language: 'python'
         });

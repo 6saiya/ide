@@ -68,7 +68,7 @@
     position: absolute;
     height: 80%;
     border: solid;
-    background: #222;
+    /* background: #222; */
 }
 
 #editorArea {
